@@ -20,15 +20,11 @@ Build Docker Image
 
 Build the Docker image for the project using the following command:
 
-bash
-Копировать код
 docker build -t name_of_image .
 Run Docker Container
 
 Start the Docker container with the following command:
 
-bash
-Копировать код
 docker run -d --name my_app_container -p 8000:8000 name_of_image
 This command runs the container in detached mode, names it my_app_container, and maps port 8000 on your host machine to port 8000 in the container.
 
